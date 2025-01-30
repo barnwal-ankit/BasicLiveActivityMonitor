@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serial Input Display</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js for Graph -->
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Serial Input Display</h1>
+
+
+        <div class="input-group">
+            <label for="baudRate">Select Baud Rate:</label>
+            <select id="baudRate">
+                <option value="9600">9600</option>
+                <option value="115200" selected>115200</option>
+                <option value="57600">57600</option>
+                <option value="38400">38400</option>
+                <option value="19200">19200</option>
+                <option value="4800">4800</option>
+            </select>
+        </div>
+
+
+        <button onclick="connectSerial()">Connect Serial</button>
+
+
+        <div class="toggle-wrapper">
+            <div class="toggle-container">
+                <span>Raw Data:</span>
+                <label class="switch">
+                    <input type="checkbox" id="rawDataToggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="toggle-container">
+                <span>Graph:</span>
+                <label class="switch">
+                    <input type="checkbox" id="graphToggle" checked>
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+
+        <div id="output">Waiting for serial data...</div>
+
+
+        <div id="chartContainer">
+            <canvas id="activityChart"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
