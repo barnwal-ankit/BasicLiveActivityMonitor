@@ -21,11 +21,11 @@ This project uses an ESP8266 microcontroller and an ADXL345 accelerometer to det
 4. Visit the live website to see the activity status updated in real-time.
 
 ## Datasheet
-https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf - Provides detailed specifications and pinout of the ADXL345 sensor.
+https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf - Provides detailed specifications and pinout of the ADXL345 sensor.\n
 https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf - Provides detailed specifications of ESP8266.
 
 ## DataSet
-RealWorld (HAR) (2016) url: https://www.uni-mannheim.de/dws/research/projects/activity-recognition/dataset/dataset-realworld/
+RealWorld (HAR) (2016) url: https://www.uni-mannheim.de/dws/research/projects/activity-recognition/dataset/dataset-realworld/ \n
 Here only Forearm Dataset has been used.
 
 ## License
