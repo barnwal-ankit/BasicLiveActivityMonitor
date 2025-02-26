@@ -1,33 +1,49 @@
-# BasicLiveActivityMonitor
+# 📡 BasicLiveActivityMonitor  
 
-## Overview
-This project uses an ESP8266 microcontroller and an ADXL345 accelerometer to detect basic activities like running, standing, and sitting. The data is processed using Edge Impulse, and the activity status is displayed live on a website via serial data.
+## 📖 Overview  
+This project uses an **ESP8266** microcontroller and an **ADXL345** accelerometer to detect basic activities like **running, standing, and sitting**. The data is processed using **Edge Impulse**, and the activity status is displayed **live on a website** via serial data.  
 
-## Components
-- ESP8266: Handles processing and communication.
-- ADXL345: A 3-axis accelerometer used for detecting motion.
-- Edge Impulse: For training and running the activity detection model.
-- Website: Displays real-time activity data.
+---
 
-## Features
-- Detects 4 activities (running, standing, sitting, and one additional activity).
-- Live data visualization on a website.
-- Anomaly detection to flag unexpected movements.
+## 🔩 Components  
+- 🖥 **ESP8266** – Handles processing and communication.  
+- 📟 **ADXL345** – A 3-axis accelerometer used for detecting motion.  
+- 📊 **Edge Impulse** – For training and running the activity detection model.  
+- 🌐 **Website** – Displays real-time activity data.  
 
-## Setup
-1. Connect the ADXL345 accelerometer to the ESP8266.
-2. Upload the firmware to the ESP8266.
-3. Ensure the Edge Impulse model is properly trained and integrated.
-4. Visit the live website to see the activity status updated in real-time.
+---
 
-## Datasheet
-- https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf - Provides detailed specifications and pinout of the ADXL345 sensor.
+## ✨ Features  
+✔️ Detects **4 activities** (Running 🏃, Standing 🚶, Sitting 🪑, and one additional activity).  
+✔️ **Live data visualization** on a website.  
+✔️ **Anomaly detection** to flag unexpected movements.  
 
-- https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf - Provides detailed specifications of ESP8266.
+---
 
-## DataSet
-- RealWorld (HAR) (2016) url: https://www.uni-mannheim.de/dws/research/projects/activity-recognition/dataset/dataset-realworld/
-- Here only Forearm Dataset has been used.
+## ⚙️ Setup  
+1️⃣ **Connect** the ADXL345 accelerometer to the ESP8266.  
+2️⃣ **Upload** the firmware to the ESP8266.  
+3️⃣ **Ensure** the Edge Impulse model is properly trained and integrated.  
+4️⃣ **Visit** the live website to see the **activity status updated in real-time**.  
 
-## License
-This project is open-source under the MIT license.
+---
+
+## 📄 Datasheet  
+📌 **ADXL345 Datasheet** – [View Here](https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf) 📑  
+📌 **ESP8266 Datasheet** – [View Here](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf) 📑  
+
+---
+
+## 📂 Dataset  
+📌 **RealWorld (HAR) (2016) Dataset** – [View Here](https://www.uni-mannheim.de/dws/research/projects/activity-recognition/dataset/dataset-realworld/)  
+📌 **Subset Used** – Only the **Forearm Dataset** has been used.  
+
+---
+
+## 📜 License  
+📝 This project is **open-source** under the **MIT License**.  
+
+---
+
+## 📧 Contact  
+For any queries, feel free to **open an issue** on GitHub! 🚀  
